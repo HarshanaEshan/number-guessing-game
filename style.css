@@ -1,0 +1,80 @@
+.main{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    width: 50vw;
+    height: 60vh;
+    margin: auto;
+    margin-top: 10vh;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px 4px;
+}
+.title{
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.game{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    border: 1px solid black;
+    /* width: 30vw; */
+    height: 35vh;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 10px;
+    box-shadow: 5px 2px 5px;
+}
+.right{
+    border: 1px solid black;
+    /* width: 30vw; */
+    height: 35vh;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 10px;
+    box-shadow: 5px 2px 5px;
+}
+.right-title{
+    text-align: center;
+}
+.left :nth-child(1){
+    margin-top: 4rem;
+}
+.left :nth-child(2){
+    color: green;
+}
+.left :nth-child(3){
+    color: red;
+}
+.left h4, h3{
+    text-align: center;
+}
+.num-input{
+    border-radius: 5px;
+    width: 70%;
+    height: 20px;
+}
+.btn-gess{
+    border-radius: 5px;
+    background-color: #1E90FF;
+    width: 22%;
+    height: 30px;
+    font-weight: 700;
+}
+.txt-congtarz{
+    color: green;
+    text-align: center;
+}
+.txt-tryagain{
+    color: red;
+    text-align: center;
+}
+.txt-hint{
+    color: red;
+    text-align: center;
+}

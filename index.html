@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess And Win</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="main">
+        <div class="content">
+            <div class="title">
+                <h1>~ Guess and Win ~</h1>
+            </div>
+            <div class="game">
+                <div class="left">
+                    <h3>You get three chances to guess</h3>
+                    <h4>We provide some hints for you</h4>
+                    <h4>Good luck ...!!! </h4>
+                </div>
+                <div class="right">
+                    <h3 class="right-title">Enter your number</h3>
+                    <input type="text" class="num-input" id="gessing-number">
+                    <button class="btn-gess" id="btn-gess" onclick="gess()">Gess</button>
+                    <h3 class="txt-congtarz" id="congratulation"></h3>
+                    <h3 class="txt-tryagain" id="tryagain"></h3>
+                    <h3 class="txt-hint" id="Hint"></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
